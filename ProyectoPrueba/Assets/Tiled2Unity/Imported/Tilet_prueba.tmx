@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.4" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="21" tileheight="21" infinite="0" nextobjectid="1">
- <layer name="Capa de Patrones 1" width="20" height="10">
+<map version="1.0" tiledversion="1.1.4" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="21" tileheight="21" infinite="0" nextobjectid="2">
+ <tileset firstgid="1" source="Tileset.tsx"/>
+ <layer name="Fondo" width="20" height="10">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AU4AIAAyAAAQ==
   </data>
  </layer>
+ <layer name="Escenario" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1Ab1QFwLxQ1UMGsuEM+G4nkUmIluFiVm4jKLVDNroBhk1kwCeB6SelyYkBmkYgD2Yya7
+  </data>
+ </layer>
+ <layer name="Arboles" width="20" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFxIDDjAwM5UwQmhqgHmjWPCBuZKLcLJCb5kLNm09FN1ZRwW3IoAJqnj8zA0MAM4Qe7AAAmpkI+w==
+  </data>
+ </layer>
+ <objectgroup name="Colisiones">
+  <object id="1" x="419.333" y="209.333">
+   <polyline points="0,0 -418,-1.33333 -418,-40.6667 -377.333,-41.3333 -294,-124 -253.333,-124 -170.667,-41.3333 0,-40 -0.666667,0"/>
+  </object>
+ </objectgroup>
 </map>
